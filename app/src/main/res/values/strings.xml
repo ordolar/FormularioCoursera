@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FormularioCoursera</string>
+    <string name="nombre">Nombre completo:</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="email">Email:</string>
+    <string name="descripcion">Descripción de Contacto</string>
+    <string name="boton">Siguiente</string>
+    <string name="confirmar">CONFIRMAR DATOS</string>
+</resources>

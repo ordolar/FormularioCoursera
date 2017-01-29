@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalles_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ordolar.formulariocoursera.DetallesContacto">
+
+
+    <TextView
+        android:id="@+id/confirmarTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:padding="15dp"
+        android:text="@string/descripcion"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/nombreTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/fechaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/tefnoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/mailTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/descTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:padding="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editarBtn"
+        android:text="Editar Datos"
+        android:onClick="atras"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
